@@ -1,9 +1,13 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "providers": [
+      { "name": "Lufthansa", "api_url": "https://api.lufthansa.com/flights" },
+      { "name": "Delta Airlines", "api_url": "https://api.delta.com/flights" },
+      { "name": "Air France", "api_url": "https://api.airfrance.com/flights" }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+    "flights": [
+      { "origin": "New York", "destination": "London", "provider": "Lufthansa" },
+      { "origin": "Los Angeles", "destination": "Tokyo", "provider": "Delta Airlines" },
+      { "origin": "Paris", "destination": "Rome", "provider": "Air France" }
+    ]
   }
+  
